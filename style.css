@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+form, .top-bar {
+    max-width: 600px;
+    margin: auto;
+}
+
+input, select, button {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0 15px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+td, th {
+    border: 1px solid #aaa;
+    padding: 10px;
+}
+
+.prioridade-urgente {
+    color: red;
+    font-weight: bold;
+}
+
+.top-bar {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
